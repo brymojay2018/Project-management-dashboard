@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dahsboard</title>
+    <link rel="stylesheet" href="projectmanagement.css"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="dashboard-container">
+
+        <!-- nav-bar-structure -->
+        <div class="dashboard-side-bar-container">
+            <div class="dashboard-menu-container">
+                <div class="brandlogo">
+                    <img src="/images/brandlogo.png" width="100">
+                </div>
+
+                <div class="menu-container">
+                 <div class="dashboard-menu">
+            
+                    <div class="link">
+                        <a href="#" class="menu-list">
+                            <i class="fa-solid fa-bars"></i>
+                            <p>Dashboard</p> 
+                        </a>
+                    </div>
+
+                    <div class="link">
+                        <a href="#" class="menu-list">
+                            <i class="fa-regular fa-bell"></i>
+                        <p>Notifications</p>
+                        </a>
+                    </div>
+
+                    <div class="link">
+                        <a href="#" class="menu-list active">
+                            <i class="fa-regular fa-note-sticky"></i>
+                            <p>Notes</p>
+                        </a>
+                    </div>
+
+                    <div class="link">
+                        <a href="#" class="menu-list">
+                            <i class="fa-solid fa-list-check"></i>
+                            <p>Tasks</p>
+                        </a>
+                    </div>
+
+                    <div class="link">
+                        <a href="#" class="menu-list">
+                            <i class="fa-regular fa-envelope"></i>
+                        <p>Emails</p>
+                        </a>
+                    </div>
+
+                    <div class="link">
+                        <a href="#" class="menu-list">
+                            <i class="fa-regular fa-calendar"></i>
+                            <p>Calendar</p>
+                        </a>
+                    </div>
+                 </div>
+                </div>
+
+                <div class="menu-container">
+
+                    <div class="menu-heading">
+                        <p>DATABASE</p>
+                    </div>
+
+                    <div class="dashboard-menu">
+                        
+                        <div class="link">
+                            <a href="#" class="menu-list">
+                                <i class="fa-solid fa-chart-column"></i>
+                            <p>Analytics</p>
+                            </a>
+                        </div>
+
+                        <div class="link">
+                            <a href="#" class="menu-list">
+                                <i class="fa-regular fa-address-book"></i>
+                                <p>Contacts</p>
+                            </a>
+                        </div>
+
+                        <div class="link">
+                            <a href="#" class="menu-list">
+                                <i class="fa-regular fa-building"></i>
+                                <p>Company</p>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="menu-container no-line">
+
+                    <div class="menu-heading">
+                        <p>APPLICATION</p>
+                    </div>
+
+                    <div class="dashboard-menu">
+
+                        <div class="link">
+                            <a href="#" class="menu-list">
+                                <i class="fa-solid fa-mobile-screen"></i>
+                            <p>Integrations</p>
+                            </a>
+                        </div>
+
+                        <div class="link">
+                            <a href="#" class="menu-list">
+                                <i class="fa-solid fa-gear"></i>
+                                <p>Settings</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="profile">
+                <a href="#" class="user-profile">
+                    <img src="/images/avatar.webp" width="32">
+                    <p>Ibraheem</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- dashboard-overview -->
+        <div class="dashboard-main-content-container">
+
+            <div class="top-nav-bar-container">
+                <div class="top-nav-title">
+                    <h2> Sunday 19, 2024</h2>
+                    <div>
+                        <i class="fa-solid fa-cloud"></i>
+                    </div>
+                </div>
+                <div class="top-nav-bar-icons">
+                    <div class=" top-icon">
+                        <a href="#">
+                            <i class="fa-solid fa-headset"></i>
+                        </a>
+                    </div>
+
+                    <div class=" top-icon">
+                        <a href="#">
+                            <i class="fa-regular fa-message"></i>
+                        </a>
+                    </div>
+
+                    <div class=" top-icon">
+                        <a href="#">
+                            <i class="fa-solid fa-circle-half-stroke"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- main-dashboard-container -->
+            <div class="dashboard-welcome-view-container">
+                <div class="dashboard-heading">
+                    <h2>Welcome Ramadan</h1>
+                </div>
+
+                <div class="dashboard-button-container">
+                    <button class="button">
+                        <i class="fa-solid fa-plus"></i>
+                        Add New Notes
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="notice-card-container">
+                <div class="notice-card">
+                    <div class="notice-card-tag">
+                        <div class="tag">
+                            <p>New Activity</p>
+                        </div>
+                        <div class="tag">
+                            <p>Product</p>
+                        </div>
+                    </div>
+
+                    <div class="notice-card-title">
+                        <h2>Product Meeting</h2>
+                        <p>This monthly progress agenda is following this items
+
+                            Introduction to newest product plan
+                            Monthly revenue updates for each</p>
+                    </div>
+
+                    <div class="notice-card-user-profile">
+                        <div class="notice-card-display">
+                            <div class="user-profile-image">
+                                <img src="/images/avatar.webp" width="30"/> 
+                            </div>
+                            <p> Floyid Mlen</p>
+                        </div>
+                        <div class="notice-card-date">
+                            <p>May 29, 2024</p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="notice-card">
+                    <div class="notice-card-tag">
+                        <div class="tag">
+                            <p>New Product</p>
+                        </div>
+                    </div>
+
+                    <div class="notice-card-title">
+                        <h2>New Product Lauch</h2>
+                        <p>We are thrilled to announce the launch of our newest product, designed to revolutionize the way you work and bring you closer to achieving your goals.</p>
+                    </div>
+
+                    <div class="notice-card-user-profile">
+                        <div class="notice-card-display">
+                            <div class="user-profile-image">
+                                <img src="/images/avatar3.webp" width="30"/> 
+                            </div>
+                            <p>Jessica James</p>
+                        </div>
+                        <div class="notice-card-date">
+                            <p>June 19, 2024</p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="notice-card">
+                    <div class="notice-card-tag">
+                        <div class="tag">
+                            <p>New Activity</p>
+                        </div>
+                        <div class="tag">
+                            <p>Product</p>
+                        </div>
+                    </div>
+
+                    <div class="notice-card-title">
+                        <h2>Team Expansion</h2>
+                        <p>Exciting times ahead! We're growing, and we'd love for you to meet the newest additions to our talented team to drive us toward even greater success!</p>
+                    </div>
+
+                    <div class="notice-card-user-profile">
+                        <div class="notice-card-display">
+                            <div class="user-profile-image">
+                                <img src="/images/avatart6.jpeg" width="30"/> 
+                            </div>
+                            <p> Floyid Mlen</p>
+                        </div>
+                        <div class="notice-card-date">
+                            <p>Aug 23, 2024</p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="notice-card">
+                    <div class="notice-card-tag">
+                        <div class="tag">
+                            <p>New Activity</p>
+                        </div>
+                        <div class="tag">
+                            <p>Product</p>
+                        </div>
+                    </div>
+
+                    <div class="notice-card-title">
+                        <h2>Celebrating 5 years of Experience</h2>
+                        <p>Join us in celebrating a remarkable milestone! It's been an incredible journey, and we couldn't have done it without your support.</p>
+                    </div>
+
+                    <div class="notice-card-user-profile">
+                        <div class="notice-card-display">
+                            <div class="user-profile-image">
+                                <img src="/images/avatar.svg" width="30"/> 
+                            </div>
+                            <p> Goodwill Sunday</p>
+                        </div>
+                        <div class="notice-card-date">
+                            <p>Feb 8, 2023</p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="notice-card">
+                    <div class="notice-card-tag">
+                        <div class="tag">
+                            <p>New Activity</p>
+                        </div>
+                        <div class="tag">
+                            <p>Product</p>
+                        </div>
+                    </div>
+
+                    <div class="notice-card-title">
+                        <h2>Partnership Announcement</h2>
+                        <p>We're excited to announce a strategic partnership with (CocaCola). Together, we’re paving the way for new opportunities, expanded services</p>
+                    </div>
+
+                    <div class="notice-card-user-profile">
+                        <div class="notice-card-display">
+                            <div class="user-profile-image">
+                                <img src="/images/avatart6.jpeg" width="30"/> 
+                            </div>
+                            <p> Floyid Mlen</p>
+                        </div>
+                        <div class="notice-card-date">
+                            <p>May 5, 2023</p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="notice-card">
+                    <div class="notice-card-tag">
+                        <div class="tag">
+                            <p>New Activity</p>
+                        </div>
+                        <div class="tag">
+                            <p>Product</p>
+                        </div>
+                    </div>
+
+                    <div class="notice-card-title">
+                        <h2>Office Relocation</h2>
+                        <p>To better serve our clients and continue growing, we’re moving to a new office location! Our new space reflects our dynamic culture.</p>
+                    </div>
+
+                    <div class="notice-card-user-profile">
+                        <div class="notice-card-display">
+                            <div class="user-profile-image">
+                                <img src="/images/avatar.webp" width="30"/> 
+                            </div>
+                            <p> Floyid Mlen</p>
+                        </div>
+                        <div class="notice-card-date">
+                            <p>April 23, 2023</p>
+
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+
+    </div>
+
+        
+</body>
+</html>
